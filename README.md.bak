@@ -1,5 +1,5 @@
 # Phases fading away
-We (Sruthi, Aiswary and myself) met Dr. Nir Grossman and he walked us through endpoint Hilbert method
+We (Sruthi, Aiswary and myself) met Dr. Nir Grossman at EMBO Lecture course on `Neuromodulation` at IIT Gandhinagar and he walked us through endpoint Hilbert method
 
 ## This repo aims to understand what he taught us in detail
 - If the start and end of the sample are not continuous with each other, distortions are introduced by the DFT
@@ -11,4 +11,5 @@ We (Sruthi, Aiswary and myself) met Dr. Nir Grossman and he walked us through en
 - I created sine waves which have different phases at starts and ends
 - Such waveforms subjected to Hilbert distorts phases
 - I had waveforms which starts and ends with same phases, where this issue is not there
+- Gibbs Gibbs Gibbs :bomb:
 

@@ -1,12 +1,11 @@
 # Phases fading away
-We (Sruthi, Aiswary and myself) met Dr. Nir Grossman and he walked us through endpoint Hilbert method
+We (Sruthi, Aiswary and myself) met Dr. Nir Grossman at EMBO Lecture course on `Neuromodulation` at IIT Gandhinagar and he walked us through endpoint Hilbert method
 
 ## This repo aims to understand what he taught us in detail
 - If the start and end of the sample are not continuous with each other, distortions are introduced by the DFT
 - Echt effectively smooths out this 'discontinuity' by selectively deforming the start of the sample
 - We wanted to capture realtime data from EEG, run filter-Hilbert to find the instantaneous phase and trigger sound if the phase is of certain value
 - Since the conventional method distorts phases at the end point, we need to fix this
-
 - The redboxes are distortions! Damn
 - I created sine waves which have different phases at starts and ends
 - Such waveforms subjected to Hilbert distorts phases
