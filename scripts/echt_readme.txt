@@ -1,0 +1,7 @@
+Echt.m explanation 
+echt.m computes the FFT of the signal using Matlab’s fft.m function (same as in hilbert.m).
+It then sets the amplitude of the negative components of the FFT to zero and multiply the amplitudes of the positive components, apart from the zero-frequency component (DC) and Nyquist components, by two (same as in hilbert.m). 
+Note, if the signal has an even number of elements n, the frequency components are: n/2-1 negative elements, one DC element, n/2-1 positive elements and one Nyquist element (in order). If the signal has an odd number of elements n, the frequency components are: (n-1)/2 negative elements, one Dc element, (n-1)/2 positive elements (in order). There is no element positive element corresponding to the Nyquist frequency.
+In contrast to hilbert.m the code then multiplies the array by a frequency response vector of a causal bandpass filter. The frequency response vector is computed using the Matlab’s freqz function from the filter’s impulse response function, computed by Matlab’s butter.m function, and the user defined low-cutoff frequency, high-cutoff frequency and sampling rate.
+The array is arranged, using Matlab’s fftshift function, so that the zero-frequency component is at the center of the array, before the multiplication, and rearranged back so that the zero-frequency component is at the left of the array using Matlab’s ifftshift.m function.
+Finally, it computes the IFFT using Matlab’s ifft.m function (same as in hilbert.m).
