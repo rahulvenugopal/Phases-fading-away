@@ -1,5 +1,5 @@
 # Phases fading away
-We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `Neuromodulation` at IIT Gandhinagar and he walked us through endpoint Hilbert method under :flashlight:
+We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `Neuromodulation` at IIT Gandhinagar and he walked us through endpoint Hilbert method under :flashlight: (because we were explaining our poster around 7 PM and Dr. Grossman was really patient and gave us valubale feedbacks) Dr. Nir, you are awesome :fire:
 
 ## This repo aims to understand what he taught us in detail
 - If the start and end of the sample are not continuous with each other, distortions are introduced by the DFT
