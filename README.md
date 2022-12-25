@@ -16,9 +16,9 @@ We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `
 - Hilbert transform was run on the sine wave and we took out the imaginary part. Green curve
 - We applied the endpoint corrected Hilbert and the distortions to phase (*stemming from distortions to the imaginary part of analytical signal*) got corrected. Red curve
 - Look at the price we paid for this, the beginning of the red curve suffers from a phase shift!
-
 ![](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Demo.png)
 
-$${\color{steelblue} Deep dive}$$
+$${\color{steelblue} **Deep dive**}$$
+- Let us understand, how endpoint correction really works
 
 
