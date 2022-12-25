@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Dec 23 07:35:40 2022
-
+- Create pure sine waves of specific frequency
+- Create many wave forms where their starting and ending phases vary
+- Replicate the phase distortions due to Gibbs phenomenon
+- Cure those distortions by end point corrected Hilbert magic
 @author: Rahul Venugopal
 """
 #%% Libraries

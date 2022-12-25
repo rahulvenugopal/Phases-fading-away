@@ -11,13 +11,13 @@ via phase-locked disruption of its temporal coherence.” Nature communications
 vol. 12,1 363. 13 Jan. 2021, doi:10.1038/s41467-020-20581-7
 
 """
+#%% Loading libraries
 import numpy as np
 import scipy.signal
 from scipy import fft as sp_fft
 import matplotlib.pyplot as plt
 
-
-#%%
+#%% Custom functions
 
 def echt_scipy_hilbert(x, freq,samplingrate, N=None, axis=-1):
     '''scipy implementation of hilbert (scipy/signal/_signaltools.py) + echt'''
@@ -134,6 +134,3 @@ def echt_rdgao_hilbert(x,freq,samplingrate):
     z= np.fft.ifft(fftdata) 
     
     return z
-
-
-
