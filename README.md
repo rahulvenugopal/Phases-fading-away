@@ -17,10 +17,7 @@ We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `
 - We applied the endpoint corrected Hilbert and the distortions to phase (*stemming from distortions to the imaginary part of analytical signal*) got corrected. Red curve
 - Look at the price we paid for this, the beginning of the red curve suffers from a phase shift!
 
-*{\color{blue}Blue curve}*
-*{\color{orange}Orange curve}*
-**{\color{green}Green curve}**
-**{\color{red}Red curve}**
+**{\color{green} Green curve}**
 
 ![](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Demo.png)
 
