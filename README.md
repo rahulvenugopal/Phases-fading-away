@@ -11,14 +11,14 @@ We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `
 
 ## Demo
 - `demo_echt.py` contains the demo script and the Pythonified code for endpoint correction can be found under scripts folder `echt.py`
-- We created a sine wave of `2.5 Hz` with a sampling frequency of `1000 Hz`. $${\color{blue} Blue curve}$$
-- A phase shifted waveform was generated which serves as the ground truth. $${\color{orange} Orange curve}$$
-- Hilbert transform was run on the sine wave and we took out the imaginary part. $${\color{green} Green curve}$$
-- We applied the endpoint corrected Hilbert and the distortions to phase (*stemming from distortions to the imaginary part of analytical signal*) got corrected. $${\color{red} Red curve}$$
+- We created a sine wave of `2.5 Hz` with a sampling frequency of `1000 Hz`. Blue curve
+- A phase shifted waveform was generated which serves as the ground truth. Orange curve
+- Hilbert transform was run on the sine wave and we took out the imaginary part. Green curve
+- We applied the endpoint corrected Hilbert and the distortions to phase (*stemming from distortions to the imaginary part of analytical signal*) got corrected. Red curve
 - Look at the price we paid for this, the beginning of the red curve suffers from a phase shift!
 
-$${\color{green} Green curve}$$
-
 ![](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Demo.png)
+
+$${\color{steelblue} Deep dive}$$
 
 
