@@ -21,4 +21,16 @@ We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `
 $${\color{steelblue} **Deep dive**}$$
 - Let us understand, how endpoint correction really works
 
+## To Do
+1. Replicate the phase and amplitude error plots from [Schreglmann, S.R et al 2021](https://www.nature.com/articles/s41467-020-20581-7#citeas)
+2. Make sure the echt.py implementation is correct by bench-marking against original MATLAB implementation
+- We spotted the `filt_freq` need to be adjusted based on the length of the samples (even or odd) using a `np.ceil` function
+3. Understand what causal filter is doing to the FFT in an intuitive sense
+- From the `Bressler et al 2022` paper:
+> the amplitude and phase at the beginning of the sample window is warped to be continuous with the end
+
+4. Read [A Wearable EEG System for Closed-Loop Neuromodulation of High-Frequency Sleep-Related Oscillations](https://arxiv.org/abs/2212.11273)
+5. Create neat visualisation for phase error plots as a circular histogram with custom annotations
+![Image from Figure 7 of Bressler et al, 2022 paper]()
+
 
