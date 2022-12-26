@@ -31,6 +31,6 @@ $${\color{steelblue} **Deep dive**}$$
 
 4. Read [A Wearable EEG System for Closed-Loop Neuromodulation of High-Frequency Sleep-Related Oscillations](https://arxiv.org/abs/2212.11273)
 5. Create neat visualisation for phase error plots as a circular histogram with custom annotations
-![Image from Figure 7 of Bressler et al, 2022 paper]()
+![Image from Figure 7 of Bressler et al, 2022 paper](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Circular_barhistogram_with_custom_texts.png)
 
 
