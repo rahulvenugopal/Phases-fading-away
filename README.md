@@ -23,6 +23,7 @@ $${\color{steelblue} **Deep dive**}$$
 
 ## To Do
 1. Replicate the phase and amplitude error plots from [Schreglmann, S.R et al 2021](https://www.nature.com/articles/s41467-020-20581-7#citeas)
+- The maximum phase error was for 90 degrees and 270 degress the error was minimal!!!! Understand why
 2. Make sure the echt.py implementation is correct by bench-marking against original MATLAB implementation
 - We spotted the `filt_freq` need to be adjusted based on the length of the samples (even or odd) using a `np.ceil` function
 3. Understand what causal filter is doing to the FFT in an intuitive sense
@@ -33,4 +34,6 @@ $${\color{steelblue} **Deep dive**}$$
 5. Create neat visualisation for phase error plots as a circular histogram with custom annotations
 ![Image from Figure 7 of Bressler et al, 2022 paper](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Circular_barhistogram_with_custom_texts.png)
 
-
+## Explorations
+1. Understand the causal filter design in an intuitive manner
+2. Delay the real time fetching so that the target portion does not fall on distortion part and target the next onset of phase
