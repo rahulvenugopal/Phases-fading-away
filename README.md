@@ -18,8 +18,6 @@ We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `
 - Look at the price we paid for this, the beginning of the red curve suffers from a phase shift!
 ![](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Demo.png)
 
-- Let us understand, how endpoint correction really works
-
 ## To Do
 1. Replicate the phase and amplitude error plots from [Schreglmann, S.R et al 2021](https://www.nature.com/articles/s41467-020-20581-7#citeas)
 - The maximum phase error was for 90 degrees and 270 degress the error was minimal!!!! Understand why
