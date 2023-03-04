@@ -18,7 +18,6 @@ We (Sruthi, Aiswarya and Rahul) met Dr. Nir Grossman at EMBO Lecture course on `
 - Look at the price we paid for this, the beginning of the red curve suffers from a phase shift!
 ![](https://github.com/rahulvenugopal/Phases-fading-away/blob/main/Demo.png)
 
-$${\color{steelblue} **Deep dive**}$$
 - Let us understand, how endpoint correction really works
 
 ## To Do
